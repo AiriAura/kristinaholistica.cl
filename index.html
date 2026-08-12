@@ -39,7 +39,7 @@
     "description": "Terapias complementarias de bienestar integral en Santiago, Chile. Reiki, Flores de Bach, Yoga, Yoga Terapéutico, Ayurveda y masajes ayurvédicos.",
     "url": "https://kristinaterapias.cl",
     "telephone": "+56978332033",
-    "email": "kristinaholistica@gmail.com",
+    "email": "krisstina.garcia29@gmail.com",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Santiago",
@@ -121,7 +121,14 @@
     .hero{min-height:100vh;background:var(--ink);display:grid;grid-template-columns:1fr 1fr;position:relative;overflow:hidden}
     #petals-canvas{position:absolute;inset:0;z-index:1;pointer-events:none}
     .hero-left{display:flex;flex-direction:column;justify-content:center;padding:12% 8% 12% 10%;position:relative;z-index:2}
-    .hero-right{position:relative;overflow:hidden;background:linear-gradient(135deg,#2d1660 0%,#1a0e2e 60%,#0f0720 100%);z-index:2}
+    .hero-right{
+      position:relative;
+      overflow:hidden;
+      background:
+        linear-gradient(135deg, rgba(45,22,96,.55) 0%, rgba(26,14,46,.6) 60%, rgba(15,7,32,.7) 100%),
+        url('kristina.jpg') center 20%/cover no-repeat;
+      z-index:2;
+    }
     .hero-geo{position:absolute;inset:0;overflow:hidden}
     .hero-geo-circle{position:absolute;border-radius:50%;border:1px solid rgba(201,168,76,.08)}
     .hero-geo-circle:nth-child(1){width:600px;height:600px;top:-100px;right:-150px}
@@ -154,10 +161,26 @@
     .manifesto-side{position:sticky;top:8rem}
     .manifesto-label,.sh-label{font-size:.65rem;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin-bottom:1.2rem;display:flex;align-items:center;gap:.8rem}
     .manifesto-label::before,.sh-label::before{content:'';width:20px;height:1px;background:var(--gold)}
-    .manifesto-num{font-family:var(--serif);font-size:7rem;font-weight:400;color:var(--lilac2);line-height:1;font-style:italic;margin-top:-.5rem}
+    .manifesto-num{
+      font-family:var(--serif);
+      font-size:5rem;
+      font-weight:400;
+      color:var(--lilac);
+      line-height:1;
+      font-style:italic;
+      margin-top:0;
+      opacity:.55;
+    }
     .manifesto-main h2{font-family:var(--serif);font-size:clamp(2.2rem,3.5vw,3rem);font-weight:400;color:var(--ink);line-height:1.2;margin-bottom:1.8rem}
     .manifesto-main h2 em,.sh-title em,.sobre-text h2 em,.testi-h em,.faq-header h2 em,.contacto h2 em{font-style:italic;color:var(--ink3)}
-    .manifesto-body,.sh-sub,.sobre-intro{font-size:1.05rem;color:var(--ink3);line-height:1.9;font-weight:300;max-width:700px;margin-bottom:2rem}
+    .manifesto-body,.sh-sub,.sobre-intro{
+      font-size:1.05rem;
+      color:#4a3268;
+      line-height:1.9;
+      font-weight:400;
+      max-width:700px;
+      margin-bottom:2rem;
+    }
     .manifesto-link{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);text-decoration:none;display:inline-flex;align-items:center;gap:.6rem;border-bottom:1px solid var(--ink);padding-bottom:2px;transition:all .3s}
     .manifesto-link:hover{color:var(--gold);border-color:var(--gold)}
 
@@ -301,7 +324,7 @@
       .hero-left{padding:16% 8% 10%}
       .manifesto{grid-template-columns:1fr;gap:2rem;padding:6rem 8%}
       .manifesto-side{position:static}
-      .manifesto-num{font-size:5rem}
+      .manifesto-num{font-size:3.5rem}
       .section-header{grid-template-columns:1fr;gap:1.5rem}
       .terapias-list{grid-template-columns:1fr 1fr}
       .sobre-grid{grid-template-columns:1fr;gap:3rem}
@@ -379,7 +402,7 @@
         <div class="hero-geo-circle"></div>
       </div>
       <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;padding:3rem 2rem">
-        <p style="font-family:'Playfair Display',serif;font-size:1.3rem;font-style:italic;color:rgba(255,255,255,.18);text-align:center;line-height:1.6;max-width:280px">"No busques afuera lo que ya está dentro de ti."</p>
+        <p style="font-family:'Playfair Display',serif;font-size:1.3rem;font-style:italic;color:rgba(255,255,255,.85);text-align:center;line-height:1.6;max-width:280px;text-shadow:0 2px 12px rgba(0,0,0,.5)">"No busques afuera lo que ya está dentro de ti."</p>
       </div>
       <div class="hero-right-content"></div>
     </div>
@@ -492,7 +515,7 @@
         Agendar por WhatsApp
       </a>
       <div class="contact-links">
-        <a class="contact-link" href="mailto:kristinaholistica@gmail.com">kristinaholistica@gmail.com</a>
+        <a class="contact-link" href="mailto:krisstina.garcia29@gmail.com">krisstina.garcia29@gmail.com</a>
         <a class="contact-link" href="tel:+56978332033">+56 9 7833 2033</a>
         <a class="contact-link" href="https://instagram.com/krisstinayogaterapia" target="_blank" rel="noopener">Instagram @krisstinayogaterapia</a>
       </div>
@@ -516,7 +539,7 @@
       <div class="footer-col">
         <h4>Contacto</h4>
         <a href="tel:+56978332033">+56 9 7833 2033</a>
-        <a href="mailto:kristinaholistica@gmail.com">kristinaholistica@gmail.com</a>
+        <a href="mailto:krisstina.garcia29@gmail.com">krisstina.garcia29@gmail.com</a>
         <a href="#contacto">Santiago, Chile</a>
         <a href="https://instagram.com/krisstinayogaterapia" target="_blank" rel="noopener">Instagram →</a>
       </div>
@@ -544,7 +567,7 @@
       },
       {
         icon:'✨',
-        img:'reiki.jpg',
+        img:'reiki.webp',
         imgAlt:'Sesión de Reiki en Santiago',
         title:'Reiki',
         desc:'Canalización de energía para favorecer relajación profunda, armonización y bienestar integral.',
